@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_ls_bg"
+    tools:context="com.loudstring.loudstring_admin.SplashActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250px"
+        android:src="@drawable/ls_logo"
+        android:id="@+id/app_logo"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:layout_below="@+id/app_logo"
+        android:textAlignment="center"
+        android:layout_centerInParent="true"
+        android:text="Your unseen friend"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2017"
+        android:layout_alignParentBottom="true"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>
